@@ -1,0 +1,139 @@
+{
+  "dbpath": "data",
+  "health-check-uri": "/healthz",
+  "repos": {
+    "josm": {
+      "url": "https://josm.openstreetmap.de/svn/trunk",
+      "url-pattern": {
+        "base-url": "https://josm.openstreetmap.de/browser/josm/trunk/{path}{anchor}"
+      },
+      "vcs": "svn"
+    },
+    "jmapviewer": {
+      "url": "https://svn.openstreetmap.org/applications/viewer/jmapviewer",
+      "url-pattern": {
+        "base-url": "https://trac.openstreetmap.org/browser/subversion/applications/viewer/jmapviewer/{path}{anchor}"
+      },
+      "vcs": "svn"
+    },
+    "i18n": {
+      "url": "https://svn.openstreetmap.org/applications/editors/josm/i18n",
+      "url-pattern": {
+        "base-url": "https://trac.openstreetmap.org/browser/subversion/applications/editors/josm/i18n/{path}{anchor}"
+      },
+      "vcs": "svn"
+    },
+    "plugins": {
+      "url": "https://svn.openstreetmap.org/applications/editors/josm/plugins",
+      "url-pattern": {
+        "base-url": "https://trac.openstreetmap.org/browser/subversion/applications/editors/josm/plugins/{path}{anchor}"
+      },
+      "vcs": "svn"
+    },
+    "areaselector": {
+      "url": "https://www.github.com/JOSM/areaselector.git"
+    },
+    "austriaaddresshelper": {
+      "url": "https://www.github.com/JOSM/austriaaddresshelper.git"
+    },
+    "auto-tools": {
+      "url": "https://www.github.com/JOSM/auto-tools.git"
+    },
+    "Building-Generalization": {
+      "url": "https://www.github.com/JOSM/Building-Generalization.git"
+    },
+    "changeset-viewer": {
+      "url": "https://www.github.com/JOSM/changeset-viewer.git"
+    },
+    "Color": {
+      "url": "https://www.github.com/JOSM/Color.git"
+    },
+    "configuration": {
+      "url": "https://www.github.com/JOSM/configuration.git"
+    },
+    "conflation": {
+      "url": "https://www.github.com/JOSM/conflation.git"
+    },
+    "continuos-download": {
+      "url": "https://www.github.com/JOSM/continuos-download.git"
+    },
+    "Dxf-Import": {
+      "url": "https://www.github.com/JOSM/Dxf-Import.git"
+    },
+    "geotools": {
+      "url": "https://www.github.com/JOSM/geotools.git"
+    },
+    "improve-way": {
+      "url": "https://www.github.com/JOSM/improve-way.git"
+    },
+    "josm-gridify": {
+      "url": "https://www.github.com/JOSM/josm-gridify.git"
+    },
+    "kartverketimport": {
+      "url": "https://www.github.com/JOSM/kartverketimport.git"
+    },
+    "missingroads": {
+      "url": "https://www.github.com/JOSM/missingroads.git"
+    },
+    "osm-obj-info": {
+      "url": "https://www.github.com/JOSM/osm-obj-info.git"
+    },
+    "plugins-class-conflicts": {
+      "url": "https://www.github.com/JOSM/plugins-class-conflicts.git"
+    },
+    "rex": {
+      "url": "https://www.github.com/JOSM/rex.git"
+    },
+    "ShapeTools": {
+      "url": "https://www.github.com/JOSM/ShapeTools.git"
+    },
+    "strava_heatmap": {
+      "url": "https://www.github.com/JOSM/strava_heatmap.git"
+    },
+    "todo": {
+      "url": "https://www.github.com/JOSM/todo.git"
+    },
+    "tofix": {
+      "url": "https://www.github.com/JOSM/tofix.git"
+    },
+    "traffic-flow-direction": {
+      "url": "https://www.github.com/JOSM/traffic-flow-direction.git"
+    },
+    "turnlanes-tagging": {
+      "url": "https://www.github.com/JOSM/turnlanes-tagging.git"
+    },
+    "mbtiles": {
+      "url": "https://gitlab.com/JOSM/plugin/mbtiles.git"
+    },
+    "matsim": {
+      "url": "https://gitlab.com/JOSM/plugin/matsim.git"
+    },
+    "josm-atlas": {
+      "url": "https://gitlab.com/JOSM/plugin/josm-atlas.git"
+    },
+    "fieldpapers": {
+      "url": "https://gitlab.com/JOSM/plugin/fieldpapers.git"
+    },
+    "scripting": {
+      "url": "https://gitlab.com/JOSM/plugin/scripting.git"
+    },
+    "mapathoner": {
+      "url": "https://gitlab.com/JOSM/plugin/mapathoner.git"
+    },
+    "contourmerge": {
+      "url": "https://gitlab.com/JOSM/plugin/contourmerge.git"
+    },
+    "pt_assistant": {
+      "url": "https://gitlab.com/JOSM/plugin/pt_assistant.git"
+    },
+    "geojson": {
+      "url": "https://gitlab.com/JOSM/plugin/geojson.git"
+    },
+    "Mapillary": {
+      "url": "https://gitlab.com/JOSM/plugin/Mapillary.git"
+    },
+    "wikipedia": {
+      "url": "https://gitlab.com/JOSM/plugin/wikipedia.git"
+    }
+  }
+}
