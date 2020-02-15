@@ -1,4 +1,5 @@
 {
+  "title": "JOSM code search",
   "dbpath": "data",
   "health-check-uri": "/healthz",
   "repos": {
