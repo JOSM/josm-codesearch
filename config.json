@@ -1,9 +1,11 @@
 {
   "title": "JOSM code search",
+  "max-concurrent-indexers": 1,
   "dbpath": "data",
   "health-check-uri": "/healthz",
   "repos": {
     "josm": {
+      "ms-between-poll": 300000,
       "url": "https://josm.openstreetmap.de/svn/trunk",
       "url-pattern": {
         "base-url": "https://josm.openstreetmap.de/browser/josm/trunk/{path}{anchor}"
@@ -11,6 +13,7 @@
       "vcs": "svn"
     },
     "jmapviewer": {
+      "ms-between-poll": 300000,
       "url": "https://svn.openstreetmap.org/applications/viewer/jmapviewer",
       "url-pattern": {
         "base-url": "https://trac.openstreetmap.org/browser/subversion/applications/viewer/jmapviewer/{path}{anchor}"
@@ -18,6 +21,7 @@
       "vcs": "svn"
     },
     "i18n": {
+      "ms-between-poll": 300000,
       "url": "https://svn.openstreetmap.org/applications/editors/josm/i18n",
       "url-pattern": {
         "base-url": "https://trac.openstreetmap.org/browser/subversion/applications/editors/josm/i18n/{path}{anchor}"
@@ -25,6 +29,7 @@
       "vcs": "svn"
     },
     "plugins": {
+      "ms-between-poll": 300000,
       "url": "https://svn.openstreetmap.org/applications/editors/josm/plugins",
       "url-pattern": {
         "base-url": "https://trac.openstreetmap.org/browser/subversion/applications/editors/josm/plugins/{path}{anchor}"
@@ -32,108 +37,143 @@
       "vcs": "svn"
     },
     "areaselector": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/areaselector.git"
     },
     "austriaaddresshelper": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/austriaaddresshelper.git"
     },
     "auto-tools": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/auto-tools.git"
     },
     "Building-Generalization": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/Building-Generalization.git"
     },
     "changeset-viewer": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/changeset-viewer.git"
     },
     "Color": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/Color.git"
     },
     "configuration": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/configuration.git"
     },
     "conflation": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/conflation.git"
     },
     "continuos-download": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/continuos-download.git"
     },
     "Dxf-Import": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/Dxf-Import.git"
     },
     "geotools": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/geotools.git"
     },
     "improve-way": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/improve-way.git"
     },
     "josm-gridify": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/josm-gridify.git"
     },
     "kartverketimport": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/kartverketimport.git"
     },
     "missingroads": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/missingroads.git"
     },
     "osm-obj-info": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/osm-obj-info.git"
     },
     "plugins-class-conflicts": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/plugins-class-conflicts.git"
     },
     "rex": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/rex.git"
     },
     "ShapeTools": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/ShapeTools.git"
     },
     "strava_heatmap": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/strava_heatmap.git"
     },
     "todo": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/todo.git"
     },
     "tofix": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/tofix.git"
     },
     "traffic-flow-direction": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/traffic-flow-direction.git"
     },
     "turnlanes-tagging": {
+      "ms-between-poll": 300000,
       "url": "https://www.github.com/JOSM/turnlanes-tagging.git"
     },
     "mbtiles": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/mbtiles.git"
     },
     "matsim": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/matsim.git"
     },
     "josm-atlas": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/josm-atlas.git"
     },
     "fieldpapers": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/fieldpapers.git"
     },
     "scripting": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/scripting.git"
     },
     "mapathoner": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/mapathoner.git"
     },
     "contourmerge": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/contourmerge.git"
     },
     "pt_assistant": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/pt_assistant.git"
     },
     "geojson": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/geojson.git"
     },
     "Mapillary": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/Mapillary.git"
     },
     "wikipedia": {
+      "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/wikipedia.git"
     }
   }
