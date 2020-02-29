@@ -6,7 +6,7 @@ Powered by [hound](https://github.com/hound-search/hound), an extremely fast sou
 
 ## Usage
 
-- https://josm-codesearch.legner.me/
+- https://codesearch.josm.eu/
 
 ## Author and License (hound)
 
