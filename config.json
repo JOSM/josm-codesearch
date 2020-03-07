@@ -175,6 +175,82 @@
     "wikipedia": {
       "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/wikipedia.git"
+    },
+    "MicrosoftStreetsidePlugin": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/Microsoft/MicrosoftStreetsidePlugin.git"
+    },
+    "CADTools": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/ROTARIUANAMARIA/CADTools.git"
+    },
+    "PolygonCutOut": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/bdxd111/PolygonCutOut.git"
+    },
+    "relationdissolve": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/jkennedyie/relationdissolve.git"
+    },
+    "lane-connectivity": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/kaart-labs/lane-connectivity_plugin.git"
+    },
+    "TombPlugin": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/kendzi/TombPlugin.git"
+    },
+    "jogl": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/kendzi/josm-jogl.git"
+    },
+    "kendzi3d": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/kendzi/kendzi3d.git"
+    },
+    "easypresets": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/maripo/JOSM_easypresets.git"
+    },
+    "movementalert": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/maripo/JOSM_movementalert.git"
+    },
+    "quicklabel": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/maripo/JOSM_quicklabel.git"
+    },
+    "pointInfo": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/mkyral/josm-pointInfo.git"
+    },
+    "tracer": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/mkyral/josm-tracer.git"
+    },
+    "markseen": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/risicle/josm-markseen.git"
+    },
+    "batch-downloader": {
+      "ms-between-poll": 300000,
+      "url": "https://gitlab.com/Jamalek/josm-batch-downloader.git"
+    },
+    "MapWithAI": {
+      "ms-between-poll": 300000,
+      "url": "https://gitlab.com/gokaart/JOSM_MapWithAI.git"
+    },
+    "OpenQA": {
+      "ms-between-poll": 300000,
+      "url": "https://gitlab.com/gokaart/JOSM_OpenQA.git"
+    },
+    "highwayNameModification": {
+      "ms-between-poll": 300000,
+      "url": "https://gitlab.com/gokaart/JOSM_highwayNameModification.git"
+    },
+    "microdata-scraping": {
+      "ms-between-poll": 300000,
+      "url": "https://gitlab.com/vucodil/microdata-scraping.git"
     }
   }
 }
