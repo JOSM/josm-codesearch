@@ -176,10 +176,6 @@
       "ms-between-poll": 300000,
       "url": "https://gitlab.com/JOSM/plugin/wikipedia.git"
     },
-    "MicrosoftStreetsidePlugin": {
-      "ms-between-poll": 300000,
-      "url": "https://github.com/Microsoft/MicrosoftStreetsidePlugin.git"
-    },
     "CADTools": {
       "ms-between-poll": 300000,
       "url": "https://github.com/ROTARIUANAMARIA/CADTools.git"
