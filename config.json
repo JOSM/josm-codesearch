@@ -244,6 +244,10 @@
       "ms-between-poll": 300000,
       "url": "https://gitlab.com/gokaart/JOSM_highwayNameModification.git"
     },
+    "indoorhelper": {
+      "ms-between-poll": 300000,
+      "url": "https://github.com/JOSM/indoorhelper.git"
+    },
     "microdata-scraping": {
       "ms-between-poll": 300000,
       "url": "https://gitlab.com/vucodil/microdata-scraping.git"
