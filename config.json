@@ -14,25 +14,25 @@
     },
     "jmapviewer": {
       "ms-between-poll": 300000,
-      "url": "https://svn.openstreetmap.org/applications/viewer/jmapviewer",
+      "url": "https://josm.openstreetmap.de/osmsvn/applications/viewer/jmapviewer",
       "url-pattern": {
-        "base-url": "https://trac.openstreetmap.org/browser/subversion/applications/viewer/jmapviewer/{path}{anchor}"
+        "base-url": "https://josm.openstreetmap.de/browser/osm/applications/viewer/jmapviewer/{path}{anchor}"
       },
       "vcs": "svn"
     },
     "i18n": {
       "ms-between-poll": 300000,
-      "url": "https://svn.openstreetmap.org/applications/editors/josm/i18n",
+      "url": "https://josm.openstreetmap.de/osmsvn/applications/editors/josm/i18n",
       "url-pattern": {
-        "base-url": "https://trac.openstreetmap.org/browser/subversion/applications/editors/josm/i18n/{path}{anchor}"
+        "base-url": "https://josm.openstreetmap.de/browser/osm/applications/editors/josm/i18n/{path}{anchor}"
       },
       "vcs": "svn"
     },
     "plugins": {
       "ms-between-poll": 300000,
-      "url": "https://svn.openstreetmap.org/applications/editors/josm/plugins",
+      "url": "https://josm.openstreetmap.de/osmsvn/applications/editors/josm/plugins",
       "url-pattern": {
-        "base-url": "https://trac.openstreetmap.org/browser/subversion/applications/editors/josm/plugins/{path}{anchor}"
+        "base-url": "https://josm.openstreetmap.de/browser/osm/applications/editors/josm/plugins/{path}{anchor}"
       },
       "vcs": "svn"
     },
